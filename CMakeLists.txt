@@ -3,5 +3,4 @@ project(Coding)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES sparse-arrays.cpp)
-add_executable(Coding ${SOURCE_FILES})
+add_executable(t src/t.cpp)
